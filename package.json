@@ -1,0 +1,29 @@
+{
+  "name": "vitest",
+  "version": "1.0.0",
+  "description": "Playground of vitest test suit and standard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulldecorb/vitest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulldecorb/vitest/issues"
+  },
+  "homepage": "https://github.com/ulldecorb/vitest#readme",
+  "devDependencies": {
+    "standard": "17.1.0",
+    "vitest": "1.5.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
